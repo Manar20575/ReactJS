@@ -1,0 +1,51 @@
+<pre> make code more reusable 
+react == ui library 
+library :  simble part of website 
+freamwork:big can make all website without other
+SPA : single page application
+react , vue , angular 1 page 
+react lib need dependenses but vue angular freamworks 
+---------------------------------------------------------------------- 
+html page == document<br>
+window == browser <br>
+both object <br>
+------------------------------
+Dom:
+normal:
+  html (node/tag)
+head body
+     p p=>h2 === make new dom after changes
+take more time **
+VDom:
+real dom => virtual dom 
+compare el 2 tree : change in vdom w update changes real dom nt all
+----------------------
+JSX:javascript xml
+css js no html
+created tags
+-------------------------------------------------------------
+node modules == > libs react depends on these lib 
+packet.json ==> info for application
+     dependencies ==> libs was installed
+     scripts object ==> run project *npm start(key)* 
+-------------------------------------------------------------
+public ==> index.html our SPA
+src index.js ==> import react / reactdom
+-------------------------------------------------------------
+import / export :
+
+file with 1 fun ==> export with {} / export default test  in import without {} or change name 
+     with 2 fun ==> only export
+--------------------------------------------------------------
+extends inherit from ....
+--------------------------------------------------
+-state
+	obj js / auto init 
+*private* to component ==> hold data and show it in return with { } cuz its dynamic
+state {
+}
+-props its attr 
+share state in other comp
+--------------------------------------------------------------
+life cycle ==> function
+componentDidMount ==> when comp loaded then request to show data </pre>
